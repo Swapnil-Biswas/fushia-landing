@@ -4,6 +4,7 @@ import "./globals.css";
 import ScrollProgress from "../components/ScrollProgress";
 import DiscordJoinButton from "../components/DiscordJoinButton";
 import ShaderBackground from "../components/ui/shader-background";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +42,7 @@ export default function RootLayout({
           {children}
           <DiscordJoinButton />
         </div>
+        <SpeedInsights />
       </body>
     </html>
   );
