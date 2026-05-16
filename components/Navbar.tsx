@@ -31,6 +31,7 @@ export default function Navbar() {
           <img
             src="/fushia-logo.gif"
             alt="Fushia logo"
+            loading="lazy"
             className="brand-avatar h-9 w-9 rounded-full object-cover"
           />
           <span className="brand-wordmark bg-gradient-to-r from-fuchsia-100 via-fuchsia-50 to-fuchsia-200 bg-clip-text text-xl font-extrabold tracking-[0.01em] text-transparent">
