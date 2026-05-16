@@ -65,10 +65,18 @@ export default function SiteFooter() {
               </span>
             </div>
             <div className="mt-7 flex gap-3">
-              <a className="btn-alive grid h-12 w-12 place-content-center rounded-xl border border-white/12 bg-white/6 text-fuchsia-100/85 hover:text-white" href="#">
+              <a
+                className="btn-alive grid h-12 w-12 place-content-center rounded-xl border border-white/12 bg-white/6 text-fuchsia-100/85 hover:text-white"
+                href="#"
+                aria-label="Join our Discord community"
+              >
                 <FaDiscord />
               </a>
-              <a className="btn-alive grid h-12 w-12 place-content-center rounded-xl border border-white/12 bg-white/6 text-fuchsia-100/85 hover:text-white" href="#">
+              <a
+                className="btn-alive grid h-12 w-12 place-content-center rounded-xl border border-white/12 bg-white/6 text-fuchsia-100/85 hover:text-white"
+                href="#"
+                aria-label="View our source code"
+              >
                 <FaCode />
               </a>
             </div>
