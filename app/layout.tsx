@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Fushia | All-In-One Discord Bot",
   description: "Fushia is an all-in-one Discord bot for antinuke, automod, giveaways, logging, automation, and music.",
+  keywords: ["discord bot", "antinuke", "automod", "music bot", "giveaways", "logging"],
   icons: {
     icon: "/aqua-logo.png",
     shortcut: "/aqua-logo.png",
