@@ -50,6 +50,7 @@ export default function Features() {
     "/autoresponder add",
     "/welcome config",
     "/play never gonna give you up",
+    "/skip",
   ];
 
   const loopFeatures = [
