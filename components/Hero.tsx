@@ -6,6 +6,9 @@ import HeroEmojiSlideshow from "./HeroEmojiSlideshow";
 export default function Hero() {
   const [activeSlide, setActiveSlide] = useState<"security" | "moderation" | "music">("security");
 
+  // Safety check for activeSlide reference consistency
+  if (!activeSlide) return null;
+
   const wordClass = useCallback(
     (word: "Secure" | "Moderate" | "Entertain") => {
       const highlighted =
