@@ -129,7 +129,7 @@ export default function TestimonialsCarousel() {
   return (
     <section
       id="testimonials"
-      className="mx-auto max-w-6xl px-5 py-16 text-white"
+      className="mx-auto max-w-6xl px-5 py-20 text-white"
       data-reveal
       data-reveal-delay="70"
     >
