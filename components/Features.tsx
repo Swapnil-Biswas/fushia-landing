@@ -13,33 +13,35 @@ import {
 } from "react-icons/fa";
 import TestimonialsCarousel from "./TestimonialsCarousel";
 
+const FEATURES_LIST = [
+  {
+    title: "Antinuke Protection",
+    text: "Block destructive raids, role abuse, and dangerous permission changes in real time.",
+  },
+  {
+    title: "AutoMod",
+    text: "Enforce smart moderation with spam control, toxicity filters, and anti-link rules.",
+  },
+  {
+    title: "Giveaway System",
+    text: "Create, manage, reroll, and end giveaways quickly with clean slash commands.",
+  },
+  {
+    title: "Auto React + Responder",
+    text: "Auto-react to key messages and send smart responses for recurring questions.",
+  },
+  {
+    title: "Welcome + Logging",
+    text: "Send polished welcome messages and keep complete moderation and audit logs.",
+  },
+  {
+    title: "Music Module",
+    text: "Keep high-quality music playback with queue controls and reliable uptime.",
+  },
+];
+
 export default function Features() {
-  const features = [
-    {
-      title: "Antinuke Protection",
-      text: "Block destructive raids, role abuse, and dangerous permission changes in real time.",
-    },
-    {
-      title: "AutoMod",
-      text: "Enforce smart moderation with spam control, toxicity filters, and anti-link rules.",
-    },
-    {
-      title: "Giveaway System",
-      text: "Create, manage, reroll, and end giveaways quickly with clean slash commands.",
-    },
-    {
-      title: "Auto React + Responder",
-      text: "Auto-react to key messages and send smart responses for recurring questions.",
-    },
-    {
-      title: "Welcome + Logging",
-      text: "Send polished welcome messages and keep complete moderation and audit logs.",
-    },
-    {
-      title: "Music Module",
-      text: "Keep high-quality music playback with queue controls and reliable uptime.",
-    },
-  ];
+  const features = FEATURES_LIST;
 
   const commands = [
     "/antinuke enable",
