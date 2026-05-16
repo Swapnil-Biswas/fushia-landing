@@ -30,7 +30,7 @@ export default function Hero() {
           <p className="mb-4 inline-flex items-center rounded-full border border-[var(--line)] px-4 py-1 text-xs uppercase tracking-[0.22em] text-fuchsia-100/80">
             All-In-One Discord Bot
           </p>
-          <h1 className="text-4xl font-black leading-tight sm:text-6xl">
+          <h1 className="text-4xl font-extrabold tracking-tight leading-tight sm:text-6xl">
             Fushia
             <br />
             <span className={wordClass("Secure")}>Secure.</span>
