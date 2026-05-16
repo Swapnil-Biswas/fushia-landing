@@ -12,7 +12,9 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+## Development Environment
+
+Copy the `.env.example` to `.env.local` and fill in your Discord Application credentials and database URI before starting the development server.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
