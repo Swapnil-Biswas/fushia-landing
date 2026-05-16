@@ -93,7 +93,7 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`mx-auto mt-3 w-full max-w-6xl overflow-hidden rounded-2xl border border-[var(--line)] bg-[linear-gradient(180deg,rgba(35,14,46,0.96),rgba(19,8,28,0.96))] p-3 shadow-[0_14px_36px_rgba(0,0,0,0.4)] transition-all duration-300 md:hidden ${
+        className={`mx-auto mt-3 w-full max-w-6xl overflow-hidden rounded-2xl border border-[var(--line)] bg-[linear-gradient(180deg,rgba(35,14,46,0.96),rgba(19,8,28,0.96))] backdrop-blur-md p-3 shadow-[0_14px_36px_rgba(0,0,0,0.4)] transition-all duration-300 md:hidden ${
           menuOpen ? "max-h-[420px] translate-y-0 opacity-100" : "pointer-events-none max-h-0 -translate-y-2 opacity-0 p-0"
         }`}
       >
